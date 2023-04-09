@@ -36,4 +36,9 @@ public class FunRestController {
     public String about(){
         return "Do you want to know something about the project??";
     }
+
+    @GetMapping("/workout")
+    public String workout(){
+        return "Run a hard 5K!!";
+    }
 }
